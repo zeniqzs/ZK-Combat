@@ -1,7 +1,6 @@
 # ZK-Combat
 
 [![Minecraft Version](https://img.shields.io/badge/Minecraft-1.18+-blue)](https://www.spigotmc.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](#license)
 
 A simple, configurable combat tagging plugin for Spigot/Bukkit servers that prevents players from logging out mid-combat, disables certain actions while in combat, and integrates with WorldGuard regions.
 
