@@ -68,7 +68,7 @@ public class CombatManager {
                 String msg = actionBarMessage.replace("%seconds%", String.valueOf(timeLeft));
                 player.spigot().sendMessage(
                         net.md_5.bungee.api.ChatMessageType.ACTION_BAR,
-                        new net.md_5.bungee.api.chat.TextComponent(msg)
+                        new net.md_5.bungee.api.chat.TextComponent(ColorUtil.parseColors(msg))
                 );
                 timers.put(id, timeLeft - 1);
             }
