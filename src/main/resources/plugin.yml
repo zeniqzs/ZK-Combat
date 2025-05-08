@@ -1,0 +1,22 @@
+name: ZK-Combat
+version: '1.0-SNAPSHOT'
+main: com.zKCombat.ZKCombat
+api-version: '1.18'
+softdepend:
+  - WorldGuard
+authors:
+  - Zeniqzs
+  - TKI-Stuido
+website: https://github.com/zeniqzs
+
+
+commands:
+  zkcombat:
+    permission: zkcombat.admin
+    description: Admin Command
+
+permissions:
+  zkcombat.ignore:
+    default: false
+  zkcombat.broadcast:
+    default: true

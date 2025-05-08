@@ -1,0 +1,39 @@
+# If you find any Buggy, please Report them to https://discord.gg/NjwNVqBRvN
+
+Combat:
+  Action-Bar: "&7You are in Combat → %seconds% seconds"
+
+  Duration: 15 #seconds
+
+  Ignore-Admins: false #Players with OP Status or the Permission zkcombat.ignore will not get in Combat.
+
+  Allow-Elytra: true #In Combat
+  Allow-EnderPearls: true
+
+  Messages:
+    Left-Broadcast: "&7%player% left the Server while Combat and died." #Need's the Permission zkcombat.broadcast to recieve the Broadcast Message.
+    Left: "&7You killed %player% because he left while Combat."
+
+    Combat-Broadcast: "&7%player% is in Combat with %victim%"
+    Combat: "%7You are now in Combat with %player%"
+
+    Command: "&7You can't use %command% in Combat."
+
+    Elytra: "&7You can't use Elytra in Combat."
+    EnderPearls: "&7You can't use Ender Pearls in Combat."
+
+  Allow-Broadcast-Messages: true #If set on true, all Broadcast Messages will not be send
+
+  Blocked-Commands:
+    - shop
+    - tpa
+    - tpaccept
+
+  Ignored-Zones: #Worldguard
+    # NOT TESTED!
+    - zone1
+    - zone2
+
+  Ignored-Worlds: #In this Worlds, Combat is not working.
+    - spawn
+    - farm
