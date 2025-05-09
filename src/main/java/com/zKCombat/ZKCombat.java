@@ -25,6 +25,7 @@ public final class ZKCombat extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new PlayerChatListener(this, combatManager), this);
         getServer().getPluginManager().registerEvents(new ElytraListener(this, combatManager), this);
         getServer().getPluginManager().registerEvents(new EnderPearlListener(this, combatManager), this);
+        getServer().getPluginManager().registerEvents(new PlayerDeathListener(), this);
 
         getServer().getPluginCommand("zkcombat").setExecutor(new ZKCombatCommand());
         getServer().getPluginCommand("zkcombat").setTabCompleter(new ZKCombatCommand());
